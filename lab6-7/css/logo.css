@@ -1,0 +1,21 @@
+/* Header */
+.header {
+	height: 20%;
+}
+.logotype {
+	max-width: 100%;
+	margin: 3% auto;
+	display: block;
+}
+
+@media screen and (min-width: 1024px){
+	.logotype {
+		max-width: 25%;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.logotype {
+		max-width: 50%;
+	}
+}

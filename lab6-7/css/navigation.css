@@ -1,0 +1,40 @@
+.navigation {
+	font-family: 'a_OldTyperTitulNr', arial, sans-serif;
+	font-size: 28.44px;
+	font-weight: bold;
+
+	text-align: center;
+}
+
+.navigation li {
+	display: inline;
+}
+
+/* NAVIGATION */
+.navigation {
+	margin: 0 auto;
+	display: block;
+	/*max-width: 930px;
+	height: 50%;*/
+	vertical-align: middle;
+}
+
+.navigation > ul {
+	padding-left: 0; 
+}
+
+.navigation li {
+	display: inline-block;	
+	margin: 20px 50px;
+}
+
+@media screen and (min-width: 930px) {
+	.navigation {
+		max-width: 930px;
+	}
+}
+@media screen and (max-width: 414px) {
+	.navigation li {	
+	margin: 10px 25px;
+	}
+}
